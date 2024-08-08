@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chatify</title>
+	<!-----------------custom css file link-----------------> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-----------------font-awesome link ----------------->
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+
+	<nav>
+		<div class="nav-left">
+			<a href="index.html" class="navbar-brand">
+			<h1 class="logo" style="font-weight: 800;"><span style="color: #194376;">CHAT</span>IFY</h1>
+			</a>
+			<ul>
+				<li><img src="img/notifications.png"></li>
+				<li><img src="img/inbox.png"></li>
+				<li><img src="img/video.png"></li>
+				<li><img src="img/group.png"></li>
+			</ul>
+		</div>
+		<div class="nav-right">
+			
+			<div class="search-box">
+				<img src="img/search.png" alt="">
+				<input type="text" name="search" placeholder="search">
+			</div>
+			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+				<img src="img/profile.jpg" alt="profile-picture">
+			</div>
+
+		</div>
+		<!-- settings-menu -->
+		<div class="settings-menu">
+			<div id="dark-btn">
+				<span></span>
+			</div>
+
+			<div class="settings-menu-inner">
+				<div class="user-profile">
+					<img src="img/profile.jpg" alt="">
+					<div>
+						<p>Alesh Opeyemi</p>
+						<a href="profile.html">See your profile</a>
+					</div>
+				</div>
+				<hr>
+				<div class="user-profile">
+					<img src="img/feedback.png" alt="">
+					<div>
+						<p>Give Feedback</p>
+						<a href="#">Help</a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="settings-links">
+					<img src="img/settings.png" alt="" class="settings-icon">
+					<a href="#">Settings & Privacy <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="img/help.png" alt="" class="settings-icon">
+					<a href="#">Help & Support <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="img/display.png" alt="" class="settings-icon">
+					<a href="#">Display & Accessibility <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="img/logout.png" alt="" class="settings-icon">
+					<a href="#">Logout <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+			</div>
+			
+		</div>
+
+	</nav>
+
+	<div class="container">
+		<!-- left side bar -->
+		<div class="left-sidebar">
+			<div class="imp-links">
+				<a href="#"><img src="img/news.png"> Latest News</a>
+				<a href="#"><img src="img/friend.png"> Friends</a>
+				<a href="#"><img src="img/group.png"> Group</a>
+				<a href="#"><img src="img/market1.png"> Marketplace</a>
+				<a href="#"><img src="img/watch.png"> Watch</a>
+				<a href="#">See More</a>
+			</div>
+			<div class="shortcut-links">
+				<p>Your Shortcut</p>
+				<a href="#"><img src="img/P.jpeg">Web Developer</a>
+				<a href="#"><img src="img/O.jpeg">Web Design Course</a>
+				<a href="#"><img src="img/P.jpeg">Full Stack Development</a>
+				<a href="#"><img src="img/OIP.jpeg">Website Expert</a>
+			</div>
+		</div>
+		<!-----------------main content----------------->
+		<div class="main-content">
+			
+			<div class="story-gallery">
+				<div class="story story1">
+					<img src="img/plus.gif">
+					<p>Post Story</p>
+				</div>
+				<div class="story story2">
+					<img src="img/hibee (1).jpg">
+					<p>Highbee</p>
+				</div>
+				<div class="story story3">
+					<img src="img/6.jpg">
+					<p>Mark</p>
+				</div>
+				<div class="story story4">
+					<img src="img/victoria.jpg">
+					<p>Victoria</p>
+				</div>
+				<div class="story story5">
+					<img src="img/w.jpg">
+					<p>Ju-mong</p>
+				</div>
+			</div>
+			
+			
+
+			<div class="write-post-container">
+				<div class="user-profile">
+					<img src="img/profile.jpg" alt="">
+					<div>
+						<p>Alesh Opeyemi</p>
+						<small>Public <i class="fa fa-caret-down"></i></small>
+					</div>
+				</div>
+
+				<div class="post-container">
+					<textarea rows="3" placeholder="What's on your mind, Alesh?"></textarea>
+					<div class="post-links">
+						<a href="#"><img src="img/live-video.png" alt="">Live Video</a>
+						<a href="#"><img src="img/photo.png" alt="">Photo/Video</a>
+						<a href="#"><img src="img/feeling.png" alt="">Feeling/Activity</a>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="posted-container">
+				<div class="post-row">
+					<div class="user-profile">
+						<img src="img/profile.jpg" alt="">
+						<div>
+							<p>Alesh Opeyemi</p>
+							 <span>February 16 2025, 12:20 am </span>
+						</div>
+					</div>
+					<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+				</div>
+				
+				<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+				I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+				<img src="img/P.png" alt="" class="post-img">
+
+			<div class="post-row">
+				<div class="activity-icons">
+					<div><img src="img/like-blue.png" alt="">150</div>
+					<div><img src="img/comment.png" alt="">180</div>
+					<div><img src="img/share.png" alt="">30</div>
+				</div>
+				<div class="post-profile-icon">
+					<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+				</div>
+			</div>		
+
+			</div>
+
+			<div class="posted-container">
+				<div class="post-row">
+					<div class="user-profile">
+						<img src="img/profile.jpg" alt="">
+						<div>
+							<p>Alesh Opeyemi</p>
+							 <span>February 16 2025, 12:20 am </span>
+						</div>
+					</div>
+					<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+				</div>
+				
+				<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+				I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+				<img src="img/software-developer-on-php-code.jpg" alt="" class="post-img">
+
+			<div class="post-row">
+				<div class="activity-icons">
+					<div><img src="img/like.png" alt="">1k</div>
+					<div><img src="img/comment.png" alt="">880</div>
+					<div><img src="img/share.png" alt="">100</div>
+				</div>
+				<div class="post-profile-icon">
+					<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+				</div>
+			</div>		
+
+			</div>
+
+			<div class="posted-container">
+				<div class="post-row">
+					<div class="user-profile">
+						<img src="img/profile.jpg" alt="">
+						<div>
+							<p>Alesh Opeyemi</p>
+							 <span>February 16 2025, 12:20 am </span>
+						</div>
+					</div>
+					<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+				</div>
+				
+				<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+				I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+				<img src="img/laptop.jpeg" alt="" class="post-img">
+
+			<div class="post-row">
+				<div class="activity-icons">
+					<div><img src="img/like-blue.png" alt="">2k</div>
+					<div><img src="img/comment.png" alt="">480</div>
+					<div><img src="img/share.png" alt="">70</div>
+				</div>
+				<div class="post-profile-icon">
+					<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+				</div>
+			</div>		
+
+			</div>
+
+			<div class="posted-container">
+				<div class="post-row">
+					<div class="user-profile">
+						<img src="img/profile.jpg" alt="">
+						<div>
+							<p>Alesh Opeyemi</p>
+							 <span>February 16 2025, 12:20 am </span>
+						</div>
+					</div>
+					<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+				</div>
+				
+				<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+				I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+				<img src="img/R.jpeg" alt="" class="post-img">
+
+			<div class="post-row">
+				<div class="activity-icons">
+					<div><img src="img/like-blue.png" alt="">150</div>
+					<div><img src="img/comment.png" alt="">380</div>
+					<div><img src="img/share.png" alt="">30</div>
+				</div>
+				<div class="post-profile-icon">
+					<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+				</div>
+			</div>		
+
+			</div>
+
+			<div class="posted-container">
+				<div class="post-row">
+					<div class="user-profile">
+						<img src="img/profile.jpg" alt="">
+						<div>
+							<p>Alesh Opeyemi</p>
+							 <span>February 16 2025, 12:20 am </span>
+						</div>
+					</div>
+					<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+				</div>
+				
+				<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+				I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+				<img src="img/laptop2.jpeg" alt="" class="post-img">
+
+			<div class="post-row">
+				<div class="activity-icons">
+					<div><img src="img/like-blue.png" alt="">450</div>
+					<div><img src="img/comment.png" alt="">280</div>
+					<div><img src="img/share.png" alt="">100</div>
+				</div>
+				<div class="post-profile-icon">
+					<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+				</div>
+			</div>		
+
+			</div>
+
+			<button type="button" class="load-more-btn">Load More---</button>
+
+		</div>
+		<!-----------------right-sidebar----------------->
+		<div class="right-sidebar">
+			
+	<div class="sidebar-title">
+		<h4>Events</h4>
+		<a href="#">See All</a>
+	</div>
+
+	<div class="event">
+		<div class="left-event">
+			<h3>18</h3>
+			<span>March</span>
+		</div>
+		<div class="right-event">
+			<h4>Social Media</h4>
+			<p><i class="fa fa-map-marker"></i> Wilson Tech Pack</p>
+			<a href="#">More Info</a>
+		</div>
+	</div>
+
+	<div class="event">
+		<div class="left-event">
+			<h3>22</h3>
+			<span>June</span>
+		</div>
+		<div class="right-event">
+			<h4>Mobile Marketing</h4>
+			<p><i class="fa fa-map-marker"></i>Wilson Tech Pack</p>
+			<a href="#">More Info</a>
+		</div>
+	</div>
+ 	<div class="sidebar-title">
+		<h4>Advertisement</h4>
+		<a href="#">Close</a>
+	</div>
+		<img src="img/Q.jpeg" class="sidebar-ads">
+		<div class="sidebar-title">
+		<h4>Conversation</h4>
+		<a href="#">Hide Chat</a>
+	</div>
+
+	<div class="online-list">
+		<div class="online">
+			<img src="img/profile.jpg">
+		</div>
+		<p>Alesh Toheeb</p>
+	</div>
+
+	<div class="online-list">
+		<div class="online">
+			<img src="img/victoria.jpg">
+		</div>
+		<p>Ilori Victoria</p>
+	</div>
+
+	<div class="online-list">
+		<div class="online">
+			<img src="img/w.jpg">
+		</div>
+		<p>Jackson Aston</p>
+	</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>copyright 2023</p>
+	</div>
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>

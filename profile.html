@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile page</title>
+	<!-----------------custom css file link-----------------> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-----------------font-awesome link ----------------->
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+
+	<nav>
+		<div class="nav-left">
+			<a href="index.html" class="navbar-brand">
+			<h1 class="logo" style="font-weight: 800;"><span style="color: #194376;">CHAT</span>IFY</h1>
+			</a>
+			<ul>
+				<li><img src="img/notifications.png"></li>
+				<li><img src="img/inbox.png"></li>
+				<li><img src="img/video.png"></li>
+			</ul>
+		</div>
+		<div class="nav-right">
+			
+			<div class="search-box">
+				<img src="img/search.png" alt="">
+				<input type="text" name="search" placeholder="search">
+			</div>
+			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+				<img src="img/profile.jpg" alt="profile-picture">
+			</div>
+
+		</div>
+		<!-- settings-menu -->
+		<div class="settings-menu">
+			<div id="dark-btn">
+				<span></span>
+			</div>
+
+			<div class="settings-menu-inner">
+				<div class="user-profile">
+					<img src="img/profile.jpg" alt="">
+					<div>
+						<p>Alesh Opeyemi</p>
+						<a href="profile.html">See your profile</a>
+					</div>
+				</div>
+				<hr>
+				<div class="user-profile">
+					<img src="img/feedback.png" alt="">
+					<div>
+						<p>Give Feedback</p>
+						<a href="#">Help</a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="settings-links">
+					<img src="img/settings.png" alt="" class="settings-icon">
+					<a href="#">Settings & Privacy <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="img/help.png" alt="" class="settings-icon">
+					<a href="#">Help & Support <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="img/display.png" alt="" class="settings-icon">
+					<a href="#">Display & Accessibility <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+				<div class="settings-links">
+					<img src="img/logout.png" alt="" class="settings-icon">
+					<a href="#">Logout <img src="img/arrow.png" alt="" width="10px"></a>
+				</div>
+			</div>
+			
+		</div>
+
+	</nav>
+
+    <!-- profile page start -->
+
+    <div class="profile-container">
+        <img src="img/P.png" alt="" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="img/profile.jpg" alt="" class="pd-image">
+                    <div>
+                        <h3>Alesh Opeyemi</h3>
+                        <p>200 Friends - 30 mutual</p>
+                        <img src="img/victoria.jpg">
+                        <img src="img/6.JPG">
+                        <img src="img/w.jpg">
+                        <img src="img/victoria.jpg">
+                        <img src="img/laptop.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"><img src="img/friend.png">Friends</button>
+                <button type="button"><img src="img/inbox.png">Message</button>
+                <br>
+                <a href="href"><img src="img/more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+				<div class="profile-intro">
+					<h3>Intro</h3>
+					<p class="intro-text">Let your smile change the world but never let the world change your smile &#128151 &#128151 &#128151</p>
+					<hr>
+					<ul>
+						<li><img src="img/profile-job.png" alt=""> Director at Chatify</li>
+						<li><img src="img/profile-study.png" alt=""> Study at Harvard University</li>
+						<li><img src="img/profile-study.png" alt=""> Went to Cambridge</li>
+						<li><img src="img/profile-home.png" alt=""> Lives in  Massachusetts United States.</li>
+						<li><img src="img/profile-location.png" alt=""> From  Nigeria</li>
+					</ul>
+				</div>
+
+				<div class="profile-intro">
+					<div class="title-box">
+						<h3>Photos</h3>
+						<a href="">All Photos</a>
+					</div>
+					
+					<div class="photo-box">
+						<div><img src="img/profile.jpg" alt=""></div>
+						<div><img src="img/victoria.jpg" alt=""></div>
+						<div><img src="img/6.JPG" alt=""></div>
+						<div><img src="img/w.jpg" alt=""></div>
+						<div><img src="img/client-1.jpg" alt=""></div>
+						<div><img src="img/6.JPG" alt=""></div>
+					</div>
+				</div>
+
+				<div class="profile-intro">
+					<div class="title-box">
+						<h3>Friends</h3>
+						<a href="">All Friends</a>
+					</div>
+					<p>150 (12 mutual)</p>
+					<div class="friend-box">
+						<div><img src="img/6.JPG" alt=""> <p>Frank Sinatra</p></div>
+						<div><img src="img/client-1.jpg" alt=""> <p>John Travolta</p></div>
+						<div><img src="img/profile.jpg" alt=""> <p>Alesh Opeyemi</p></div>
+						<div><img src="img/w.jpg" alt=""> <p>Prince</p></div>
+						<div><img src="img/victoria.jpg" alt=""> <p>Ilori Victoria</p></div>
+						<div><img src="img/6.JPG" alt=""> <p>Frank Sinatra</p></div>
+						<div><img src="img/6.JPG" alt=""> <p>Frank Sinatra</p></div>
+						<div><img src="img/client-1.jpg" alt=""> <p>John Travolta</p></div>
+						<div><img src="img/profile.jpg" alt=""> <p>Alesh Opeyemi</p></div>
+						<div><img src="img/w.jpg" alt=""> <p>Prince</p></div>
+						<div><img src="img/victoria.jpg" alt=""> <p>Ilori Victoria</p></div>
+						<div><img src="img/6.JPG" alt=""> <p>Frank Sinatra</p></div>
+					</div>
+				</div>
+
+
+			</div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="img/profile.jpg" alt="">
+                        <div>
+                            <p>Alesh Opeyemi</p>
+                            <small>Public <i class="fa fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-container">
+                        <textarea rows="3" placeholder="What's on your mind, Alesh?"></textarea>
+                        <div class="post-links">
+                            <a href="#"><img src="img/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="img/photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="img/feeling.png" alt="">Feeling/Activity</a>
+                        </div>
+                    </div>
+                    
+                </div>
+				<div class="posted-container">
+					<div class="post-row">
+						<div class="user-profile">
+							<img src="img/profile.jpg" alt="">
+							<div>
+								<p>Alesh Opeyemi</p>
+								 <span>February 16 2025, 12:20 am </span>
+							</div>
+						</div>
+						<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+					</div>
+					
+					<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+					I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+					<img src="img/P.png" alt="" class="post-img">
+	
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="img/like-blue.png" alt="">150</div>
+						<div><img src="img/comment.png" alt="">180</div>
+						<div><img src="img/share.png" alt="">30</div>
+					</div>
+					<div class="post-profile-icon">
+						<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+					</div>
+				</div>		
+	
+				</div>
+	
+				<div class="posted-container">
+					<div class="post-row">
+						<div class="user-profile">
+							<img src="img/profile.jpg" alt="">
+							<div>
+								<p>Alesh Opeyemi</p>
+								 <span>February 16 2025, 12:20 am </span>
+							</div>
+						</div>
+						<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+					</div>
+					
+					<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+					I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+					<img src="img/software-developer-on-php-code.jpg" alt="" class="post-img">
+	
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="img/like.png" alt="">1k</div>
+						<div><img src="img/comment.png" alt="">880</div>
+						<div><img src="img/share.png" alt="">100</div>
+					</div>
+					<div class="post-profile-icon">
+						<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+					</div>
+				</div>		
+	
+				</div>
+	
+				<div class="posted-container">
+					<div class="post-row">
+						<div class="user-profile">
+							<img src="img/profile.jpg" alt="">
+							<div>
+								<p>Alesh Opeyemi</p>
+								 <span>February 16 2025, 12:20 am </span>
+							</div>
+						</div>
+						<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+					</div>
+					
+					<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+					I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+					<img src="img/laptop.jpeg" alt="" class="post-img">
+	
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="img/like-blue.png" alt="">2k</div>
+						<div><img src="img/comment.png" alt="">480</div>
+						<div><img src="img/share.png" alt="">70</div>
+					</div>
+					<div class="post-profile-icon">
+						<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+					</div>
+				</div>		
+	
+				</div>
+	
+				<div class="posted-container">
+					<div class="post-row">
+						<div class="user-profile">
+							<img src="img/profile.jpg" alt="">
+							<div>
+								<p>Alesh Opeyemi</p>
+								 <span>February 16 2025, 12:20 am </span>
+							</div>
+						</div>
+						<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+					</div>
+					
+					<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+					I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+					<img src="img/R.jpeg" alt="" class="post-img">
+	
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="img/like-blue.png" alt="">150</div>
+						<div><img src="img/comment.png" alt="">380</div>
+						<div><img src="img/share.png" alt="">30</div>
+					</div>
+					<div class="post-profile-icon">
+						<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+					</div>
+				</div>		
+	
+				</div>
+	
+				<div class="posted-container">
+					<div class="post-row">
+						<div class="user-profile">
+							<img src="img/profile.jpg" alt="">
+							<div>
+								<p>Alesh Opeyemi</p>
+								 <span>February 16 2025, 12:20 am </span>
+							</div>
+						</div>
+						<a href="#"><i class="fa fa-ellipsis-v "></i></a>
+					</div>
+					
+					<p class="post-text">I'm a Nigeria based <Span>Frontend Developer</Span> focused on creating beautiful and functional websites that provide a great user experience. 
+					I believe that good design and clean code are key to building successful websites. <a href="#">#Aleshweb</a></p>
+					<img src="img/laptop2.jpeg" alt="" class="post-img">
+	
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="img/like-blue.png" alt="">450</div>
+						<div><img src="img/comment.png" alt="">280</div>
+						<div><img src="img/share.png" alt="">100</div>
+					</div>
+					<div class="post-profile-icon">
+						<img src="img/profile.jpg" alt=""><i class="fa fa-caret-down"></i> 
+					</div>
+				</div>		
+	
+				</div>
+            </div>
+        </div>
+
+		
+
+    </div>
+
+
+    <!-- profile page end -->
+
+	<div class="footer">
+		<p>copyright 2023</p>
+	</div>
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
